@@ -3,7 +3,7 @@ import socket
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 message = b'test'
-addr = ("127.0.0.5", 5101)
+addr = ("127.0.0.5", 5101) # This is what it should be done
 
 start = time.time()
 client_socket.sendto(message, addr)
