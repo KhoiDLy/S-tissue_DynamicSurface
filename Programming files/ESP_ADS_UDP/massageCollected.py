@@ -1,5 +1,6 @@
  #!/usr/bin/env python3
-
+# Collect and process data in parallel
+ 
 import struct
 import sys
 import csv

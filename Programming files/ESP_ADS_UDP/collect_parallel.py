@@ -1,3 +1,5 @@
+# This code collects data from ESP32 in parallel
+
 import struct
 import socket
 import sys
@@ -8,7 +10,6 @@ from multiprocessing import Pool, Manager, Value, Queue
 # Manager--> scheduler capable of making locks
 # Value--> I forgot
 # Queue--> allows you to share data across processes
-
 
 NUM_ESP= 11
 BUFFER_SIZE= 10000000000
