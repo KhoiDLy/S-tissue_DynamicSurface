@@ -1,5 +1,8 @@
 // Works with all 4 channels, make sure to tie CS LOW properly
-// Adding a comment in ADS1256_SPI.c here in the main branch
+<<<<<<< HEAD
+=======
+// This is the changes in the new-branch
+>>>>>>> new-branch
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
