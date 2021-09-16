@@ -1,8 +1,6 @@
 // Works with all 4 channels, make sure to tie CS LOW properly
-<<<<<<< HEAD
-=======
-// This is the changes in the new-branch
->>>>>>> new-branch
+// This is the changnch ases in the new-branch
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
